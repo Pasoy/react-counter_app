@@ -5,7 +5,9 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import Counter from "./components/counter";
+
+ReactDOM.render(<Counter />, document.getElementById("root"));
 
 // unregister() to register()
 serviceWorker.register();
